@@ -4,6 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import PractiseNavbar from "@/components/Navbar/PractiseNavbar";
 import PractiseNavbar1 from "@/components/Navbar/PractiseNavbar1";
+import Dropdown from "@/components/Dropdown/Dropdown";
+import PractiseDropdown from "@/components/Dropdown/PractiseDropdown";
+import PractiseDropdown1 from "@/components/Dropdown/PractiseDropdown1";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +36,10 @@ export default function RootLayout({
       >
         {/* <Navbar/>
         <PractiseNavbar/> */}
-        <PractiseNavbar1/>
+        {/* <PractiseNavbar1/> */}
+        {/* <Dropdown/> */}
+        {/* <PractiseDropdown/> */}
+        <PractiseDropdown1/>
         {children}
       </body>
     </html>
